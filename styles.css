@@ -1,0 +1,49 @@
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('https://assets.onecompiler.app/42xqq6yd5/438up2jtt/Untitled%20design%20(5).png');
+    background-size: cover;
+    background-position: center;
+}
+
+/* Header Styling (Automotive Industry Theme) */
+h1 {
+    font-size: 50px;
+    text-align: center;
+    color: red;
+    margin: 0;
+    font-weight: bold;
+    text-shadow: 3px 3px 5px #000;
+    background-image: url('https://assets.onecompiler.app/42xqq6yd5/438up2jtt/Untitled%20design%20(6).png');
+    background-repeat: no-repeat;
+    background-size: cover; /* Ensures the image covers the full width */
+    height: 250px; /* Adjust height based on the image and desired look */
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Centers the text vertically */
+}
+
+/* Red Board Styling */
+.red-board {
+    background-color: red;
+    color: white;
+    padding: 20px;
+    margin: 20px auto;
+    width: 80%;
+    border-radius: 10px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.5);
+}
+
+/* Bullet Point Styling */
+.red-board ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.red-board li {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
